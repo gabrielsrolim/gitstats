@@ -396,7 +396,6 @@ class GitDataCollector(DataCollector):
 				self.authors[author]['first_commit_stamp'] = stamp
 			if 'mail' not in self.authors[author]: 
 				self.authors[author]['mail'] = mail
-				print 'Author: %s Mail: %s \n\n' % (author,self.authors[author]['mail'])
 
 			# author of the month/year
 			yymm = date.strftime('%Y-%m')
